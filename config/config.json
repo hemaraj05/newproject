@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pf-automation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pfAutomation/PfAutomationWebPart.js",
+          "manifest": "./src/webparts/pfAutomation/PfAutomationWebPart.manifest.json"
+        }
+      ]
+    },
+    "new-power-factor-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newPowerFactor/NewPowerFactorWebPart.js",
+          "manifest": "./src/webparts/newPowerFactor/NewPowerFactorWebPart.manifest.json"
+        }
+      ]
+    },
+    "view-power-factor-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/viewPowerFactor/ViewPowerFactorWebPart.js",
+          "manifest": "./src/webparts/viewPowerFactor/ViewPowerFactorWebPart.manifest.json"
+        }
+      ]
+    },
+    "admin-portal-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/adminPortal/AdminPortalWebPart.js",
+          "manifest": "./src/webparts/adminPortal/AdminPortalWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PfAutomationWebPartStrings": "lib/webparts/pfAutomation/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "NewPowerFactorWebPartStrings": "lib/webparts/newPowerFactor/loc/{locale}.js",
+    "ViewPowerFactorWebPartStrings": "lib/webparts/viewPowerFactor/loc/{locale}.js",
+    "AdminPortalWebPartStrings": "lib/webparts/adminPortal/loc/{locale}.js"
+  }
+}

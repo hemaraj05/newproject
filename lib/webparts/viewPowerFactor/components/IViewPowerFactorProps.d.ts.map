@@ -1,0 +1,1 @@
+{"version":3,"file":"IViewPowerFactorProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/viewPowerFactor/components/IViewPowerFactorProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAC;AAC5D,MAAM,WAAW,qBAAqB;IACpC,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAE,MAAM,CAAC;IAChB,OAAO,EAAE,cAAc,CAAC;CACzB"}
